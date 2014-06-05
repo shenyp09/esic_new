@@ -215,6 +215,7 @@ h4 { font-size: 16px; line-height:25px; margin-bottom:10px; }
 h5 { font-size: 15px; line-height:22px; margin-bottom:10px; }
 h6 { font-size: 14px; line-height:22px; margin-bottom:10px; }
 h1.intro {  line-height:40px; font-weight:300;}
+h1.huge { font-size:40px; line-height:35px; font-weight:700; }
 .lead { font-size:18px; line-height:24px; }
 
 /* Welcome Text */
@@ -672,6 +673,10 @@ background-color: transparent;  }
 	0I: TEAM
  ***************************************************/
 .th{
+    width: 200px;
+    width:expression(document.body.clientWidth>200?”200px”:”auto”);
+    /*height: 200px;*/
+    /*height:expression(document.body.clientWidth>200?”200px”:”auto”);*/
 	border:2px solid transparent;
 	-moz-transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
