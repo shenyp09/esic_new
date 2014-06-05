@@ -24,14 +24,14 @@ $("[data-rel=tooltip]").tooltip();
 /***************************************************
 		HOVERS
 ***************************************************/
-	$(".hover_img, .hover_colour").on('mouseover',function(){
+	$(".hover_img, .hover_colour, .hover_download, .hover_detail").on('mouseover',function(){
 			var info=$(this).find("img");
-			info.stop().animate({opacity:0.1},500);
+			info.stop().animate({opacity:0.1},200);
 		}
 	);
-	$(".hover_img, .hover_colour").on('mouseout',function(){
+	$(".hover_img, .hover_colour, .hover_download, .hover_detail").on('mouseout',function(){
 			var info=$(this).find("img");
-			info.stop().animate({opacity:1},800);
+			info.stop().animate({opacity:1},200);
 		}
 	);
 	
