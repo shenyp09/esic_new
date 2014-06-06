@@ -97,13 +97,11 @@ a:hover, a:active, a:focus {
 p {
     margin-bottom:15px;
 }
-
-p.s4{
+p.s4 {
     font-size: 16px;
     line-height: 40px;
     text-indent: 2em;
 }
-
 span {
     font-weight:700;
 }
@@ -165,12 +163,10 @@ blockquote {
 .myslider {
     display:none;
 }
-
 .myslider img {
     vertical-align: baseline;
     width: 10px;
 }
-
 .well {
     background-color:#D3CDC4;
     border:0px none;
@@ -352,7 +348,7 @@ a:hover {
     background-color:#2BA6CB;
     border:0;
 }
-.btn-fix1{
+.btn-fix1 {
     width: 80%;
     margin-top: 10px;
 }
@@ -436,7 +432,7 @@ h1.huge {
     line-height:35px;
     font-weight:700;
 }
-h3.bold{
+h3.bold {
     font-weight: 400;
 }
 .lead {
@@ -1489,7 +1485,13 @@ h1.post_intro {
     VI: CONTACT
  ***************************************************/
  .google-maps {
-    height: 400px;
+    width: 100%;
+    height: 500px;
+    margin:0px 0 30px;
+}
+#baidu-maps {
+    width: 100%;
+    height: 500px;
     margin:0px 0 30px;
 }
 .contact_form {
@@ -2136,8 +2138,6 @@ ul#itemContainer {
 .collapse.in {
     height:auto;
 }
-
-
 /*************************************************************
     TABS
  *************************************************************/
@@ -2879,15 +2879,15 @@ ul#itemContainer {
         margin-top:-20px;
     }
 }
-
 /*-----------------------------------------------------------------------------------*/
+
 /*  Personal Defination
 /*-----------------------------------------------------------------------------------*/
-.modal-wide{
+ .modal-wide {
     margin-left: 0px;
     width: 60%;
     left: 20%;
 }
-.modal-header{
+.modal-header {
     text-align: center;
 }
